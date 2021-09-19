@@ -11,6 +11,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Majestic Electric</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Majestic Electric" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css" />
@@ -35,6 +36,10 @@
         </div>
     </div> -->
 
+    <div class="loader">
+        <div class="inner"></div>
+    </div>
+
     <div id="slides">
         <div class="overlay"></div>
 
@@ -52,6 +57,40 @@
             </div>
         </div>
     </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Welcome</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Get A Quote</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="float-right phone">
+                <i class="fas fa-phone-square-alt"></i> 303 948 4456
+            </div>
+        </div>
+    </nav>
 
     <div id="about" class="section">
         <div class="container">
@@ -77,61 +116,272 @@
         </div>
     </div>
 
-    <div id="gallery" class="gallerySection section">
+    <div id="testimonials" class="testimonialsSection section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h2>GALLERY</h2>
+                    <h2>TESTOMONIALS</h2>
                     <h6>Hover pause</h6>
                     <br />
                     <!-- <p>A few of our projects</p> -->
 
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery1-min.jpeg" loading="lazy" alt="Image 1" />
+                            <h3 class="carouselImg">
+                                "We used Majestic electric after seeing recommendations on Nextdoor. So happy we did! Very honest and professional. We will definitely use them again!"
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Susan Schopen</h6>
+                            </div>
                             <!-- <h4>Testing testing testing testing testing</h4> -->
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery2-min.jpeg" loading="lazy" alt="Image 2" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Eric Nelson of Majestic Electric @ 303.948.4456 did our can lights in kitchen a couple of years ago, been in business 25+ years and very reasonably priced."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Elizabeth Hoch</h6>
+                            </div>
+                            <!-- <h4>Testing testing testing testing testing</h4> -->
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery3-min.jpeg" loading="lazy" alt="Image 3" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "I always use Majestic Electric too! Eric is great!"
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Jill Rittenberg</h6>
+                            </div>
+                            <!-- <h4>Testing testing testing testing testing</h4> -->
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery4-min.jpeg" loading="lazy" alt="Image 4" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Majestic Electric is doing ours next week. Great pricing"
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Kelly Chojnacki</h6>
+                            </div>
+                            <!-- <h4>Testing testing testing testing testing</h4> -->
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery5-min.jpeg" loading="lazy" alt="Image 5" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "We have used majestic for the past 8 years. Everything from new lights , new panels, remodeling, additional breakers, new light fixtures at 18+ feet. Always professional , always on time."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Rachel Rohr</h6>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery6-min.jpeg" loading="lazy" alt="Image 6" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Eric and his son are the best in the business. We’ve used them for several projects including installing additional outlets, installing can lights on high ceilings and wiring our remodeled basement. They are always professional, on-time and find a way
+                                to accomplish all of our requested additions-even the projects we thought might not be doable. 5 stars all the way."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Kelly Murdock</h6>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery7-min.jpeg" loading="lazy" alt="Image 7" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "We have had Eric do several jobs for us, including installing new fixtures, motion lights, and fixing problems. He has always done a fantastic job and been very reasonably priced. He and his family are wonderful to work with, we will definitely use them
+                                again when the need arises."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Debi Smith-Racanelli</h6>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery8-min.jpeg" loading="lazy" alt="Image 8" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Majestic Electric installed all new LED can lights in our house. Eric also fixed a light switch that wasn't working properly, installed a new exhaust fan in our bathroom and added an outdoor light on our back porch. He was courteous and professional
+                                and quick. The price for all the work we had done was extremely reasonable too. Definitely contact Majestic Electric if you need electrical work done at your home. I'll for sure use them again."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Lisa Bennett</h6>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery9-min.jpeg" loading="lazy" alt="Image 9" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "We have used Eric with Majestic Electric for three projects. Each project has been wonderful! Eric hung a chandelier, installed canned lighting in a very dim living room and installed a new circuit in our garage to accommodate a refrigerator. Eric was
+                                professional, easy to work with and reasonably priced! Highly recommend this company!!"
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Penny B</h6>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery10-min.jpeg" loading="lazy" alt="Image 10" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Majestic Electric exceeded my expectations. They are knowledgeable, professional, and reasonable. I had canned lights installed and couldn’t be happier."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Rosemarie Allen</h6>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery11-min.jpeg" loading="lazy" alt="Image 11" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Had Majestic install 10 can lights and move a fan in my house. They were very clean, precise in their work, on time, professional, and definitely knowledgeable. Price was fantastic compared to other estimates I had received. Will refer to all neighbors
+                                and friends, and will use again on future projects, without a doubt."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Skyler Hager</h6>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery12-min.jpeg" loading="lazy" alt="Image 12" />
+                            <h4 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Confidence Trust Ability and Assurance are a few of the considerations I as a home owner use when allowing work to be performed at my home..especially electrical work.. AS I am sure all would agree ones home is one of the most valuable assets acquired
+                                in this lifetime. Trusting just anyone with electrical needs could be costly if not detrimental if not done correctly. Eric Nelson Master Electrician and owner of Majestic Electric hands down is the very best electrician
+                                ever. Along with his abilities as an experienced Master electrician is the pride he takes in a job well done.I highly recommend this company and awesome electrician."
+                            </h4>
+                            <div class="author">
+                                <h6>&mdash; YETA DAVIS</h6>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery13-min.jpeg" loading="lazy" alt="Image 13" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "We highly recommend Eric. He is knowledgeable, professional, and reasonably priced. We have used him more than once and have been happy with the quality of his work every time. He has installed ceiling fans and other light fixtures as well as added can
+                                lights."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Rhonda Domingue</h6>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery14-min.jpeg" loading="lazy" alt="Image 14" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Eric did a great job helping us to modify some electrical at our newly purchased home! He was easy going and flexible and knows his stuff. We are definitely planning to have him help us with phase 2 in the future. Yay Majestic Electric! "
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Ann Esposito</h6>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img class="carouselImg" src="img/gallery/gallery15-min.jpeg" loading="lazy" alt="Image 15" />
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Eric and his team hung a new light fixture for me in my kitchen and did an amazing job!! I absolutely love it! They were super efficient and friendly-- I highly recommend and plan to use them again! "
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Katie P</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "We have used Eric with Majestic Electric for three projects. Each project has been wonderful! Eric hung a chandelier, installed canned lighting in a very dim living room and installed a new circuit in our garage to accommodate a refrigerator. Eric was
+                                professional, easy to work with and reasonably priced! Highly recommend this company!!"
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Penny B</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Eric is such a professional. He makes sure the job is done right and is happy to offer suggestions on site. He's a master electrician and holds his own license that can be looked up on the DORA site. Fair prices and they work weekends. I'll never use
+                                anyone else!"
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Laura Higgins</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "The Nelsons have done all the wiring and fans in our bedrooms and can lights in our living room. They are incredibly hard working and affordable. I would never call anyone else for my electrical needs."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Ashley Brown</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "This has been the most positive experience I’ve had in years. Super professional and they went above & beyond which is hard to get these days. The quality of work is impeccable and I’d highly recommend Majestic."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Lj Johnson</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "These guys did a lot of lighting work in my new build. They did a beyond fantastic job. Prices were great, friendly and reliable service. I would recommend them to anyone and everyone!!!!"
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Jessica Ridal</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "We’ve hired Majestic Electric for two recent projects, and they’ve been great! Friendly, timely, and affordable. We will be calling them for all of our future electrical needs!"
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Lindsay Bernard</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Eric was great; he was on time, friendly and super efficent. The project was small and their price was fair, I highly recommend Majestic."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Aaron Delabre</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Eric does great work at fair prices. Responsive, accommodating, helpful, will definitely work with again & would recommend!"
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Jake Rasmussen</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "Wouldn’t go with anyone else for electrical work! Fair pricing, excellent service, top notch work and all the other things you’re looking for as a homeowner."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; The Spiritual Handyman</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "great job !!! very professional, high quality & right price"
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; efren maldonado</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "We have used Eric with Majestic Electric for three projects. Each project has been wonderful! Eric hung a chandelier, installed canned lighting in a very dim living room and installed a new circuit in our garage to accommodate a refrigerator. Eric was
+                                professional, easy to work with and reasonably priced! Highly recommend this company!!"
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Penny B</h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="carouselImg" loading="lazy" alt="Image 1">
+                                "The go-to place for all electrical needs. Very professional and affordable. Quick responses and very polite."
+                            </h3>
+                            <div class="author">
+                                <h6>&mdash; Sowmya</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -325,7 +575,7 @@
       </div>
     </div>
 
-    <div id="gallery1" class="section">
+    <div id="gallery" class="section">
       <div class="container">
         <div class="row">
           <div class="heading">
@@ -335,23 +585,205 @@
           <div class="filter">
             <ul id="filters">
               <li><a href="#" data-filter="*" class="current">ALL</a></li>
-            <li><a href="#" data-filter=".apps">APPS</a></li>
-            <li><a href="#" data-filter=".me">ME</a></li>
-            <li><a href="#" data-filter=".websites">WEBSITES</a></li>
+            <li><a href="#" data-filter=".chandelier">CHANDELIER</a></li>
+            <li><a href="#" data-filter=".ceiling">CEILING</a></li>
+            <li><a href="#" data-filter=".outdoor">OUTDOOR</a></li>
             </ul>
         </div>
 
-        <div class="itemsContainer">
+        <div class="itemsContainer gallery">
             <ul class="items">
-                <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
                     <div class="item">
-                        <img src="./img/portfolio/thumbnails/testImage-min copy.jpg" alt="testing" />
+                        <div class="img-container">
+                            <img src="img/gallery/preview/gallery1-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery1-min.jpeg" />
+                            <!-- <div class="icons">
+                                    <a href="./img/portfolio/testImage-min copy.jpeg" title="View image" class="openButton"><i class="fa fa-search"></i></a> -->
+                            <!-- SMALL --- 640 x 426 -->
+                            <!-- 800 x 600 ** -->
+                            <!-- LARGE --- 1920 x 1279 -->
+
+                            <!-- <a href="" target="_blank" class="projectLink"><i class="fa fa-link"></i></a> -->
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </li>
+
+                <li class="ceiling col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery2-min-preview.jpeg" alt="Ceiling" data-original="img/gallery/full/gallery2-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery3-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery3-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="ceiling col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery4-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery4-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="ceiling col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery5-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery5-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="ceiling col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery6-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery6-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery7-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery7-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="ceiling col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery8-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery8-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="outdoor col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery9-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery9-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery10-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery10-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery11-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery11-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery12-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery12-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery13-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery13-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery14-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery14-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery15-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery15-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery16-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery16-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery17-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery17-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery18-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery18-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="outdoor col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery19-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery19-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery20-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery20-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery21-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery21-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery22-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery22-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery23-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery23-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="ceiling col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery24-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery24-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery25-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery25-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="outdoor col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery26-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery26-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="chandelier col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery27-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery27-min.jpeg" />
+                    </div>
+                </li>
+
+                <li class="outdoor col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item img-container">
+                        <img src="img/gallery/preview/gallery28-min-preview.jpeg" alt="Chandelier" data-original="img/gallery/full/gallery28-min.jpeg" />
                     </div>
                 </li>
             </ul>
         </div>
     </div>
     </div>
+    <div class="modal">
+        <img src="" alt="" class="full-img" />
+        <p class="caption"></p>
+    </div>
+    </div>
+
+    <div class="copyrightSection">
+        <div class="col-md-12 text-center">
+            <p>&copy; Copyright Majestic Electric, LLC</p>
+        </div>
     </div>
 </body>
 
