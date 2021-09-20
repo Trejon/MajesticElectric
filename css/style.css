@@ -59,14 +59,29 @@ body {
     max-width: 100%;
 }
 
-.gallerySection {
-    background-color: #2b6777;
-    /* background-color: #c8d8e4; */
-    /* background-color: #f2f2f2; */
-    /* background-color: #ffff;  */
-    /* background-color: #52ab98; */
-    color: #fff;
-}
+
+/* .gallerySection { */
+
+
+/* background-color: #2b6777; */
+
+
+/* background-color: #c8d8e4; */
+
+
+/* background-color: #f2f2f2; */
+
+
+/* background-color: #ffff;  */
+
+
+/* background-color: #52ab98; */
+
+
+/* color: #fff; */
+
+
+/* } */
 
 .carouselImg {
     float: left;
@@ -98,14 +113,14 @@ body {
     display: inline-block;
     margin-top: 20px;
     border: 1px solid #fff;
-    border-radius: 2px;
+    /* border-radius: 2px; */
     width: 150px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .contactButton:hover {
     text-decoration: none;
-    color: #696969;
+    color: #cccccc;
     background-color: #fff;
 }
 
@@ -123,7 +138,7 @@ body {
     position: relative;
     padding: 50px 0;
     text-align: center;
-    border: 2px solid #444;
+    border: 2px solid #cccccc;
     border-top: none;
     height: 150px;
 }
@@ -134,7 +149,7 @@ body {
     position: absolute;
     top: 0;
     width: 30%;
-    border-bottom: 2px solid #444;
+    border-bottom: 2px solid #cccccc;
 }
 
 .squareInnerContainer::before {
@@ -149,7 +164,7 @@ body {
     font-size: 28px;
     margin-bottom: 10px;
     font-weight: 400;
-    color: #2b6777;
+    color: #000;
 }
 
 .squareContent h3 {
@@ -171,7 +186,10 @@ body {
 
 .testimonialsSection {
     height: 550px;
-    overflow-y: auto;
+}
+
+.testimonialsSection h2 {
+    font-size: 50px;
 }
 
 .testimonialsSection h3 {
@@ -181,6 +199,7 @@ body {
     width: 130%;
     text-align: center;
     transform: translate(-30%, 10%);
+    overflow-y: auto;
 }
 
 
@@ -195,8 +214,24 @@ body {
 
 .contactSection,
 .testimonialsSection {
-    background: linear-gradient(89deg, #02aab0 0%, #00cdac 100%);
-    color: #fff;
+    /* background: linear-gradient(89deg, #02aab0 0%, #00cdac 100%); */
+    /* background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); */
+    /* background: linear-gradient(89deg, #636363 0%, #a2ab58 100%); */
+    /* background: linear-gradient(89deg, #108dc7 0%, #ef8e38 100%); */
+    /* background: linear-gradient(89deg, #2980b9 0%, #6dd5fa 100%); */
+    /* background: linear-gradient(89deg, #c9d6ff 0%, #e2e2e2 100%); */
+    /* BLUE OPTION */
+    /* background: #7f7fd5; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* BLUE OPTION  */
+    background-color: #cccccc;
+    /* background-color: #616161; */
+    /* color: #fff; */
+    color: #000;
 }
 
 .row {
@@ -208,10 +243,23 @@ body {
 }
 
 .filter a {
-    color: #bdc3c7;
-    border: 1px solid #bdc3c7;
+    color: #cccccc;
+    border: 1px solid #000;
     padding: 10px 18px;
+    /* border-radius: 2px; */
     display: block;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.filter a:hover {
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.filter a:active {
+    transform: translate(0, 0.2rem);
+    box-shadow: 0 0.5rem rgba(105, 105, 105, 0.2);
 }
 
 .filter li {
@@ -220,8 +268,8 @@ body {
 }
 
 .filter .current {
-    background-color: #2b6777;
-    border-color: #2b6777;
+    background-color: #000;
+    border-color: #000;
     color: #fff;
 }
 
@@ -348,7 +396,8 @@ body {
 }
 
 #navigation {
-    background: linear-gradient(89deg, #02aab0 0%, #00cdac 100%);
+    /* background: linear-gradient(89deg, #02aab0 0%, #00cdac 100%); */
+    background-color: #000;
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
@@ -360,6 +409,7 @@ body {
 
 #navigation li a {
     color: #fff;
+    font-size: 24px;
 }
 
 .navbar-brand {
@@ -400,4 +450,12 @@ body {
 .phone {
     color: #fff;
     font-size: 24px;
+}
+
+.phone a {
+    color: #fff;
+}
+
+.phone a:hover {
+    color: #fff;
 }
