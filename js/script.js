@@ -107,8 +107,8 @@ previews.forEach((preview) => {
         const originalSource = preview.getAttribute("data-original");
         // original.src = `./full/${originalSource}`;
         original.src = originalSource;
-        const altText = preview.alt;
-        caption.textContent = altText;
+        // const altText = preview.alt;
+        // caption.textContent = altText;
     });
 });
 
