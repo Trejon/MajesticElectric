@@ -32,6 +32,27 @@ $(document).ready(function() {
         showCursor: false,
     });
 
+    // let images = new Array(
+    //     "../img/kitchen_light1-min.jpg",
+    //     "../img/kitchen_light2-min.jpg",
+    //     "../img/kitchen_light3-min.jpg",
+    //     "../img/kitchen_light4-min.jpg"
+    // );
+    // let nextimage = 0;
+
+    // function doSlideShow() {
+    //     if (nextimage >= images.length) {
+    //         nextimage = 0;
+    //     }
+    //     $(".backdrop")
+    //         .css("background", 'url("' + images[nextimage++] + '")')
+    //         .fadeIn(500, function() {
+    //             setTimeout(doSlideShow, 1000);
+    //         });
+    // }
+
+    // doSlideShow();
+
     $(".owl-carousel").owlCarousel({
         items: 1,
         loop: true,

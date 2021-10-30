@@ -464,21 +464,10 @@ body {
     color: #fff;
 }
 
+.aboutParagraph {
+    font-size: x-large;
+}
 
-/* .backdrop {
-    background: url("https://rpsthecoder.github.io/img-repo/Taitō%20by%20Jezael%20Melgoza.jpg") center;
-    background-size: contain;
-    margin: auto;
-    width: 75vw;
-} */
-
-
-/* .text {
-    color: white;
-    border: 4px solid;
-    background: rgb(59, 2, 6);
-    mix-blend-mode: multiply;
-    font: bolder 12vw "Alfa Slab One";
+#about h3 {
     text-align: center;
-    margin: 0;
-} */
+}
