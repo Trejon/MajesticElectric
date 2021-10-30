@@ -471,3 +471,36 @@ body {
 #about h3 {
     text-align: center;
 }
+
+
+/* Media Query: Large Smartphone (Vertical) */
+
+@media screen and (max-width: 600px) {
+    .titleMessage .heading .main {
+        font-size: 35px;
+    }
+    .titleMessage .heading .sub {
+        font-size: 20px;
+        padding-top: 35px;
+    }
+    .slides-navigation a.next,
+    .slides-navigation a.prev {
+        background-size: 35px;
+        margin-top: 10px;
+    }
+    .items .item {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contactButton {
+        padding: 10px 7px;
+    }
+    .fancybox-content {
+        max-width: 1300px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .fancybox-caption__body h3 {
+        margin-top: 100px;
+    }
+}
