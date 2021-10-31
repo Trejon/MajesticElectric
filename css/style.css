@@ -504,4 +504,19 @@ body {
     .fancybox-caption__body h3 {
         margin-top: 100px;
     }
+    #about h3 {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .aboutParagraph {
+        text-align: center;
+    }
+    .navbar-toggler-icon {
+        /* background-image: url(img/icons8-menu-100.png); */
+        background-size: 100%;
+        color: white;
+        /* margin-top: 15px; */
+        margin-top: 25%;
+        margin-right: 20px;
+    }
 }
