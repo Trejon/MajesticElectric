@@ -103,7 +103,7 @@ body {
 .author {
     position: relative;
     /* float: left; */
-    padding-top: 10%;
+    padding-top: 3%;
     clear: left;
     /* margin-top: -10px; */
     /* color: #000; */
@@ -530,5 +530,9 @@ body {
         overflow-y: scroll;
         position: relative;
         height: 200px;
+    }
+    .author {
+        /* margin-top: 10%; */
+        padding-top: 25%;
     }
 }
