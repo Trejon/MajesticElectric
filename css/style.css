@@ -428,6 +428,7 @@ body {
 .navbar-toggler-icon {
     /* background-image: url(img/icons8-menu-100.png); */
     background-size: 100%;
+    color: white;
 }
 
 .fixedNav #navigation {
