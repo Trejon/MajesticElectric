@@ -90,6 +90,7 @@ body {
     object-fit: cover;
     text-align: center;
     padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .carouselImg h1 {
@@ -102,8 +103,9 @@ body {
 .author {
     position: relative;
     /* float: left; */
-    padding-top: 3%;
+    padding-top: 10%;
     clear: left;
+    margin-top: -10px;
     /* color: #000; */
 }
 
@@ -473,6 +475,10 @@ body {
     text-align: center;
 }
 
+#services h1 {
+    text-align: center;
+}
+
 
 /* Media Query: Large Smartphone (Vertical) */
 
@@ -505,7 +511,7 @@ body {
         margin-top: 100px;
     }
     #about h3 {
-        text-align: center;
+        /* text-align: center; */
         padding-top: 15px;
     }
     .aboutParagraph {
@@ -518,5 +524,11 @@ body {
         /* margin-top: 15px; */
         margin-top: 25%;
         margin-right: 20px;
+    }
+    .item.review {
+        width: 95%;
+        overflow-y: scroll;
+        position: relative;
+        height: 200px;
     }
 }
