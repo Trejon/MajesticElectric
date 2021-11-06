@@ -201,7 +201,9 @@ body {
 }
 
 .testimonialsSection {
-    height: 550px;
+    height: 500px;
+    padding-bottom: 40px;
+    padding-top: 35px;
 }
 
 .testimonialsSection h2 {
@@ -213,6 +215,7 @@ body {
     /* font-size: 4vh; */
     padding: 0 0 0 50%;
     width: 130%;
+    margin-top: 20px;
     text-align: center;
     transform: translate(-30%, 10%);
     overflow-y: auto;
@@ -256,6 +259,10 @@ body {
 
 .item {
     text-align: center;
+}
+
+.item .review {
+    margin-top: 20px;
 }
 
 .filter a {
@@ -515,7 +522,6 @@ body {
     padding-bottom: 3px;
     padding-top: 0px;
     margin-top: 40px;
-    margin-bottom: 1px;
 }
 
 #services h1 {
@@ -559,6 +565,7 @@ body {
     }
     .aboutParagraph {
         text-align: center;
+        padding-left: 20px;
     }
     .navbar-toggler-icon {
         /* background-image: url(img/icons8-menu-100.png); */
