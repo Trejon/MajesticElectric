@@ -568,6 +568,9 @@ body {
         text-align: center;
         padding-left: 20px;
     }
+    #about.section {
+        padding-top: 30px;
+    }
     .navbar-toggler-icon {
         /* background-image: url(img/icons8-menu-100.png); */
         background-size: 100%;
