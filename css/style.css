@@ -45,10 +45,13 @@ body {
 
 .titleMessage .heading .main {
     font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 22px;
 }
 
 .titleMessage .heading .sub {
     font-size: 23px;
+    margin: 38px 14px 30px;
 }
 
 .heading {
@@ -421,6 +424,12 @@ body {
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 12px;
+    padding-left: 25px;
 }
 
 #navigation li {
@@ -432,8 +441,19 @@ body {
     font-size: 24px;
 }
 
+.nav-item {
+    display: list-item;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-align: left;
+}
+
 .navbar-brand {
     color: #fff;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin: 0 16px 0 0;
+    text-align: left;
 }
 
 .navbar-brand,
@@ -487,6 +507,15 @@ body {
 
 #about h3 {
     text-align: center;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+#about img {
+    padding-bottom: 3px;
+    padding-top: 0px;
+    margin-top: 40px;
+    margin-bottom: 1px;
 }
 
 #services h1 {
