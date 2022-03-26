@@ -113,7 +113,7 @@ body {
 .author {
     position: relative;
     /* float: left; */
-    padding-top: 3%;
+    padding-top: 10%;
     clear: left;
     /* margin-top: -10px; */
     /* color: #000; */
@@ -174,9 +174,9 @@ body {
 }
 
 .squareContent h2 {
-    font-size: 28px;
+    font-size: 100%;
     margin-bottom: 10px;
-    font-weight: 400;
+    font-weight: 1000;
     color: #000;
 }
 
@@ -202,8 +202,7 @@ body {
 }
 
 .testimonialsSection {
-    height: 500px;
-    padding-bottom: 40px;
+    padding-bottom: 3%;
     padding-top: 35px;
 }
 
@@ -216,7 +215,7 @@ body {
     /* font-size: 4vh; */
     padding: 0 0 0 50%;
     width: 130%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     text-align: center;
     transform: translate(-30%, 10%);
     overflow-y: auto;
@@ -252,6 +251,14 @@ body {
     /* background-color: #616161; */
     /* color: #fff; */
     color: #000;
+}
+
+.testimonialsContainer {
+    max-width: 500px;
+    height: 500%;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    text-overflow: ellipsis;
 }
 
 .row {
@@ -529,6 +536,10 @@ body {
     text-align: center;
 }
 
+.fas.fa-phone-square-alt {
+    padding-right: 40px;
+}
+
 
 /* Media Query: Large Smartphone (Vertical) */
 
@@ -588,5 +599,8 @@ body {
     .author {
         /* margin-top: 10%; */
         padding-top: 25%;
+    }
+    .testimonialsSection {
+        padding-bottom: 15%;
     }
 }
